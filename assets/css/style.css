@@ -14,12 +14,18 @@ body {
 .navbar {
     width: 100%;
     background-color: rgba(80, 80, 80, 0.5);
-    
 }
-
+.slogan {
+    position: relative;
+    top: 45%;
+    left: 12%;
+    color: white;
+    font-size: 4vw;
+}
 #about-section {
     height: 400px;
     color: black;
+    background-color: rgb(228,228,228);
 }
 
 #portfolio-section {
@@ -35,4 +41,10 @@ body {
 #contact-section {
     height: 400px;
     color: black;
+    background-color: rgb(228,228,228);
 }
+.page-footer {
+    width: 100%;
+    background-color: rgb(228,228,228);
+}
+
