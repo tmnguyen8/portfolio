@@ -1,2 +1,1 @@
-# portfolio
-Full Stack Development Portfolio
+Hi, my name is Trai Nguyen and this is my journey of becoming a Software Engineer. I am a Georgia Tech Coding Bootcamp student with an aspiration in designing, learning all functionalities and structures, as well as resolving engineering problems. Hence, I have an Undergraduate degree and a Master's degree in Civil Engineering (with concentration in Structural, Mechanics and Materials) from the Georgia Institute of Technology. It brings me immense joy to be able to build web applications to serve different purposes where information can be shared via the internet. On this website, I want to share with you some of the accomplishments that I have achieved and the path that I have taken to become a Full Stack Software Engineer.
