@@ -43,8 +43,44 @@ body {
     color: black;
     background-color: rgb(228,228,228);
 }
+.section-title {
+    position: relative;
+    top: 10%;
+}
 .page-footer {
     width: 100%;
     background-color: rgb(228,228,228);
+}
+
+/* // Box shadow helper */
+@mixin BoxShadowHelper($level: 1){
+  @if $level == 1 {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+  }
+  @if $level == 2 {
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15);
+  }
+}
+a {
+    transition: .25s all;
+}
+.card {
+  overflow: hidden;
+  @include BoxShadowHelper(1);
+  transition: .25s box-shadow;
+  &:focus,
+  &:hover {@include BoxShadowHelper(2)}
+}
+
+.card-inverse .card-img-overlay {
+  background-color: rgba(56, 56, 56, 0.85);
+  border-color: rgba(56, 56, 56, 0.85);
+}
+.card-block {
+    color: black;
+}
+.card {
+    border: 1px solid rgb(228,228,228);
+    background-color: rgba(228,228,228, 0.1);
 }
 
