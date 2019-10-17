@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
 
     <title>Trai Nguyen's Portfolio</title>
@@ -42,19 +43,56 @@
     <!-- Section 2 -->
     <div id="portfolio-section">
         <h1 class="section-title">MY WORK</h1>
-        <div class="project-container container m-t-md">
+        <div class="project-container">
             <!-- First row -->
             <div class="row">
               <div class="col-xs-12 col-md-4">
-                <!-- Card -->
-                <article class="card animated fadeInLeft">
-                  <img class="card-img-top img-responsive" src="./assets/images/icons8-academic-250.png" alt="Academic Projects" />
-                  <div class="card-block">
-                    <h4 class="card-title">Academic Projects</h4>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, nobis.</p>
-                    <a href="#" class="btn btn-primary">Read more</a>
-                  </div>
-                </article><!-- .end Card -->
+                <!-- Academic Project Card -->
+                <!-- <article class="card animated fadeInLeft"> -->
+                
+                    <!-- expanded menu -->
+                    <div class="hexagon" onclick="expand()">
+                        <!-- <div class="toggle" id="toggle">
+                            <i class="material-icons" id="add">add</i>
+                        </div> -->
+                    </div>
+
+
+
+                    <div class="menu" id="menu">
+                        <div class="item" >
+                            <a href="#">
+                                <i class="material-icons" >home</i>
+                            </a>
+                        </div>
+                        <div class="item" >
+                            <a href="#">
+                                <i class="material-icons" >notifications</i>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <i class="material-icons" >mail</i>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <i class="material-icons" >add</i>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <i class="material-icons">videocam</i>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <i class="material-icons" >search</i>
+                            </a>
+                        </div>
+                    </div>
+       
+                <!-- .end Card -->
               </div>
             </div>
         </div> 
@@ -77,6 +115,7 @@
     <!-- Script -->
     
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="./assets/js/style.js"></script>
     <script src="./assets/js/app.js"></script>
 </body>
 
