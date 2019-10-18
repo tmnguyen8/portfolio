@@ -139,59 +139,51 @@ a {
     border: 1px solid rgb(228,228,228);
     background-color: rgba(228,228,228, 0.1);
 } */
-
+.academic-container {
+    border: 1px solid rgb(0, 255, 242);
+    background: transparent;
+    text-align: center;
+    max-height: 500px;
+    margin-top: 40px;
+}
 /* expanded menu styling */
-.hexagon {
-    position: relative;
-    width: 500px;
-    height: 288.68px;
-    background: #CD5C5C;
-    margin: 144px auto;
-  }
-.hexagon::before,
-.hexagon::after {
-  content: "";
-  position: absolute;
-  border-left: 250px solid transparent;
-  border-right: 250px solid transparent;
+.circle {
+    background: rgb(224,248,254);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid rgb(0, 255, 242);
+    position: absolute;
+    /* justify-content: center; */
+    /* left: 5%; */
+    /* bottom: 0%; */
+    cursor: pointer;
+    z-index: 1;
 }
-.hexagon::before {
-    bottom: 100%;
-    border-bottom: 144.34px solid #CD5C5C;
-}
-.hexagon::after {
-    top: 100%;
-    border-top: 144.34px solid #CD5C5C;
-}
- /* #add {
-     font-size: 100px;
+ .academic-img {
+     width: 150px;
+     height: 150px;
      color: white;
      position: relative;
-     top: 20px;
-     right: 10px;
+     top: 15px;
+     left: 6px;
      transition: 1s;
- } */
- /* .item {
-    height: 0;
-    width: 80px;
-    border-bottom: 70px solid #fff;
-    border-left: 40px solid transparent;
-    border-right: 40px solid transparent;
+ }
+ .menu {
+    z-index: -1;
+    transform: scale(0.9);
+}
+.item {
+    background: rgb(224,248,254);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
     position: absolute;
-    top: 0;
+    left: 140px;
+    top: 25px;
     transition: 1s;
-} */
-/* .item:before{
-    content: "";
-    height: 0;
-    width: 80px;
-    border-top: 70px solid #fff;
-    border-left: 40px solid transparent;
-    border-right: 40px solid transparent;
-    position: absolute;
-    top: 70px;
-    left: -40px;
-} */
+    cursor: pointer;
+}
 /* a>.material-icons {
     color: #d2d2d2;
     font-size: 60px;
