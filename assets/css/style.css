@@ -72,8 +72,8 @@ li:hover:before, li:hover:after, li:hover a:before{
 
 }
 .slogan {
-    position: relative;
-    top: 45%;
+    position: absolute;
+    top: 30%;
     left: 12%;
     color: white;
     font-size: 4vw;
