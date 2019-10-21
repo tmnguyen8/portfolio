@@ -11,6 +11,7 @@ body {
     background-size: cover;
     position: relative;
 }
+
 .navbar {
     width: 100%;
     background-color: rgba(80, 80, 80, 0.5);
@@ -160,7 +161,7 @@ a {
     cursor: pointer;
     z-index: 1;
 }
- .academic-img {
+.academic-img {
      width: 150px;
      height: 150px;
      color: white;
@@ -169,7 +170,7 @@ a {
      left: 6px;
      transition: 1s;
  }
- .menu {
+.menu {
     z-index: -1;
     transform: scale(0.9);
 }
@@ -184,16 +185,3 @@ a {
     transition: 1s;
     cursor: pointer;
 }
-/* a>.material-icons {
-    color: #d2d2d2;
-    font-size: 60px;
-}
-a{
-    position: relative;
-    top: 40px;
-    left: 10px;
-}
-a>.material-icons:hover {
-    color: #f9d230;
-    transform: scale(1.3);
-} */
