@@ -42,7 +42,9 @@
     <!-- Section 1 -->
     <div id="about-section">
         <h1 class="section-title">ABOUT</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea dolore aspernatur doloribus quo cum minus eaque ipsam eveniet quaerat, deleniti asperiores, eos omnis! Aliquid dolore cumque voluptatum quia velit repellat.</p>
+        <div class="about-container jumbotron">
+            <p>Hi, my name is Trai Nguyen and this is my journey of becoming a Software Engineer. I am a Georgia Tech Coding Bootcamp student with an aspiration in designing, learning all functionalities and structures, as well as resolving engineering problems. I have an Undergraduate degree and a Master's degree from the Georgia Institute of Technology. It brings me immense joy to be able to build web applications to serve different purposes where information can be shared via the internet. On this website, I want to share with you some of the accomplishments that I have achieved and the path that I have taken to become a Full Stack Software Engineer.</p>
+        </div>
     </div>
 
     <!-- Section 2 -->
@@ -50,110 +52,73 @@
         <h1 class="section-title">MY WORK</h1>
         <div class="project-container row">
 
-             
-                <!-- Academic Projects-->
-                <div class="jumbotron academic-container col-xs-6 offset-xs-1 col-md-3 offset-md-2 col-lg-3 offset-lg-2">
-                    <h3>ACADEMIC PROJECTS</h1>
-                    <!-- expanded menu -->
-                    
-                    <div class="circle col-6 offset-3" onclick="expand()">
-                        <div class="toggle" id="toggle">
-                            <img id="add" class="academic-img img-responsive" src="./assets/images/icons8-academic-250.png" alt="academic">
-                        </div>
-                    </div>
-
-
-                    <div class="menu" id="menu">
-                        <div class="item" >
-                            <a href="#">
-                                <i class="material-icons" >home</i>
-                            </a>
-                        </div>
-                        <div class="item" >
-                            <a href="#">
-                                <i class="material-icons" >notifications</i>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="#">
-                                <i class="material-icons" >mail</i>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="#">
-                                <i class="material-icons" >add</i>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="#">
-                                <i class="material-icons">videocam</i>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="#">
-                                <i class="material-icons" >search</i>
-                            </a>
-                        </div>
-                        
+            <!-- Academic Projects-->
+            <div class="jumbotron academic-container col-xs-6 offset-xs-1 col-md-3 offset-md-2 col-lg-3 offset-lg-2">
+                <h3>ACADEMIC PROJECTS</h1>
+                <!-- expanded menu -->
+                
+                <div class="circle col-6 offset-3" onclick="expand()">
+                    <div class="toggle" id="toggle">
+                        <img id="add" class="academic-img img-responsive" src="./assets/images/icons8-academic-250.png" alt="academic">
                     </div>
                 </div>
-                <!-- End Academic Project -->
 
-                <!-- Professional Projects-->
-                <div class="jumbotron academic-container col-xs-6 offset-xs-1 col-md-3 offset-md-2 col-lg-3 offset-lg-2">
-                        <h3>PROFESSIONAL PROJECTS</h1>
-                        <!-- expanded menu -->
-                        <div class="circle col-6 offset-3" onclick="expand()">
-                            <div class="toggle" id="toggle">
-                                <img id="add" class="academic-img img-responsive" src="./assets/images/icons8-academic-250.png" alt="academic">
-                            </div>
-                        </div>
-    
-    
-                        <div class="menu" id="menu">
-                            <div class="item" >
-                                <a href="#">
-                                    <i class="material-icons" >home</i>
-                                </a>
-                            </div>
-                            <div class="item" >
-                                <a href="#">
-                                    <i class="material-icons" >notifications</i>
-                                </a>
-                            </div>
-                            <div class="item">
-                                <a href="#">
-                                    <i class="material-icons" >mail</i>
-                                </a>
-                            </div>
-                            <div class="item">
-                                <a href="#">
-                                    <i class="material-icons" >add</i>
-                                </a>
-                            </div>
-                            <div class="item">
-                                <a href="#">
-                                    <i class="material-icons">videocam</i>
-                                </a>
-                            </div>
-                            <div class="item">
-                                <a href="#">
-                                    <i class="material-icons" >search</i>
-                                </a>
-                            </div>
-                            
-                        </div>
+                <div class="menu" id="menu">
+                    <div class="item" >
+                        <a class="item-link" href="https://tmnguyen8.github.io/group2-project1/">
+                            <i class="fas fa-plane"><p>A GetAway</p></i>
+                        </a>
                     </div>
-                    <!-- End Academic Project -->
-
-            
+                    <div class="item" >
+                        <a class="item-link" href="https://tmnguyen8.github.io/giphy-api/">
+                            <i class="fas fa-images"><p>Gipphy App</p></i>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <i class="material-icons" >mail</i>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <i class="material-icons" >add</i>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <i class="material-icons">videocam</i>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <i class="material-icons" >search</i>
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+            <!-- End Academic Project -->
         </div> 
     </div>
 
     <!-- Section 3 -->
     <div id="contact-section">
         <h1 class="section-title">CONTACT</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum error corrupti, assumenda quis commodi vitae dicta rerum provident necessitatibus neque laborum reiciendis voluptatibus pariatur. Optio quam unde dolorem corporis architecto!</p>
+        
+        <div class="contact-container wrapper">
+            <form class="form">
+                <input type="text" class="name entry " placeholder="Your Name"/>
+                
+                <input type="text" class="email entry" placeholder="Email"/>
+                
+                <textarea class="message entry" placeholder="Message"></textarea> 
+                
+                <button class="submit entry" onclick="doSomething()">Submit</button>
+              </form>  
+              
+              <div class="shadow"></div>
+            </div>
+        </div>
     </div>
 
 
