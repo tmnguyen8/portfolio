@@ -84,6 +84,7 @@ li:hover:before, li:hover:after, li:hover a:before{
 /* ********************************************************* */
 .section-title {
     padding: 20px;
+    font-size: 3vw;
 }
 
 /* ABOUT */
@@ -93,9 +94,10 @@ li:hover:before, li:hover:after, li:hover a:before{
     background-color: rgb(224,248,254);
 }
 .about-container {
-    margin: 20px 100px;
+    margin: 20px 50px;
     color: black;
     background: transparent;
+    font-size: 2vw;
 }
 
 /* ABOUT END */
@@ -115,12 +117,11 @@ li:hover:before, li:hover:after, li:hover a:before{
     color: white;
     background: transparent;
     height: 80%;
-
 }
 
 /* academic container */
 .academic-container {
-    border: 5px solid rgb(0, 255, 242);
+    /* border: 5px solid rgb(0, 255, 242); */
     background: transparent;
     text-align: center;
     max-height: auto;
