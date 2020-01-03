@@ -133,6 +133,9 @@ li:hover:before, li:hover:after, li:hover a:before{
     justify-content: center;
 
 }
+.circle:hover {
+    background: rgb(1, 126, 119)
+}
 .parent-menu {
     flex: 0;
     display: flex;
